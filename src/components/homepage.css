@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+.container-out {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    display: flex;
+    margin-top: 5%;
+
+}
+
+h1 {
+    color: #CA29B5;
+    color: -webkit-linear-gradient(top right, #CA29B5, #D4CC79);
+    color: -moz-linear-gradient(top right, #CA29B5, #D4CC79);
+    color: linear-gradient(to bottom left, #CA29B5, #D4CC79);
+    font-family: 'Roboto', sans-serif;
+}
+
+.head {
+    margin: auto;
+}
+
+.scatter {
+    margin: auto;
+}
+
+
+.bar {
+    margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+    .container-out {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: large;
+        color: chocolate;
+    }
+
+    .bar {
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    .container-out {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: larger;
+        color: chocolate;
+    }
+
+    .bar {
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container-out {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    h1 {
+
+        color: chocolate;
+    }
+
+    .bar {
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+    .container-out {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    h1 {
+
+        color: chocolate;
+    }
+
+    .bar {
+        margin-top: 10%;
+    }
+
+}
